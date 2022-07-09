@@ -1,0 +1,33 @@
+ .gradient-custom {
+
+height: 100%;
+/* fallback for old browsers */
+background: rgb(2,0,36);
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(166deg, rgba(0,0,0,1) 0%, rgba(25,57,55,1) 41%, rgba(99,143,60,1) 100%);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(166deg, rgba(0,0,0,1) 0%, rgba(25,57,55,1) 15%, rgba(99,143,60,1) 100%);
+}
+
+
+.parent {
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows: 1fr;
+grid-column-gap: 5px;
+grid-row-gap: px;
+}
+
+.span-col-2{grid-column: span 2 / auto;}
+
+.span-row-2{grid-row: span 2 / auto;}
+
+
+.footer {
+position: absolute;
+bottom:0;
+left:0;
+width:100%;
+}

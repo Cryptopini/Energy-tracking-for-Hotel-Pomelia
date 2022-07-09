@@ -1,0 +1,25 @@
+.gradient-custom {
+/* fallback for old browsers */
+background: rgb(2,0,36);
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(166deg, rgba(0,0,0,1) 0%, rgba(25,57,55,1) 52%, rgba(99,143,60,1) 100%);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(166deg, rgba(0,0,0,1) 0%, rgba(25,57,55,1) 52%, rgba(99,143,60,1) 100%);
+}
+
+
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+  font-size: 3rem;
+}
+}
